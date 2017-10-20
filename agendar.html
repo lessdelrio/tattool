@@ -28,7 +28,7 @@
   </ul>
   <nav>
     <div class="nav-wrapper black">
-      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <a href="home.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -67,7 +67,7 @@
      </div>
    </nav>
    <div class="container">
-     <h5 style="text-align:center">Consideraciones para elegir tu fecha de cita:</h5>
+     <h5 class="constit">Consideraciones para elegir tu fecha de cita:</h5>
      <p class="consi"> <b>1)</b> Por favor toma en cuenta tu horario de trabajo o las actividades y compromisos que tendrás.<br>
         <b>2)</b> Una vez agendada tu cita, si quieres cambiar fecha y/u horario lo podrás hacer pero por favor toma en cuenta lo siguiente:<br>
         - Si faltan 2 meses o más para tu cita no hay penalización.<br>
@@ -102,12 +102,24 @@
      </div>
    </div>
 <div class="row">
-  <div class="col s6 offset-s3 agenda">
+  <div class="col s6 offset-s3 agenda centrar">
       <a class="waves-effect waves-light btn grey darken-3" href="pago.html">Siguiente</a>
   </div>
 </div>
 </main>
-
+<style>
+@media screen and (min-width: 990px) {
+  .consi{
+    font-size: 17px;
+  }
+  .breadl{
+    font-size: 20px;
+  }
+  .constit{
+    font-size: 35px;
+  }
+}
+</style>
 
   <footer class="page-footer black">
     <div class="footer-copyright">
@@ -115,6 +127,7 @@
         © 2017 Tattool
       </div>
     </div>
+
   </footer>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->

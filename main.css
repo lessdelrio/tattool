@@ -74,6 +74,7 @@ opacity: 0.6;
 }
 .blanco{
   color: white;
+  text-align: center;
 }
 
 .centrar{
@@ -104,7 +105,8 @@ opacity: 0.6;
   text-align: left;
 }
 .fotper {
-  width: 100%;
+  width: 150px;
+  height: 150px;
   justify-content: center;
 }
 .editper{
@@ -223,4 +225,30 @@ i.icon-red:hover {
 }
 .carrhome2{
   margin-top: -28%;
+}
+.texcarru{
+  color: black;
+  text-align: center;
+}
+.login{
+  margin: 0% 50%;
+}
+.seguitext{
+  font-size: 20px;
+}
+.tamano{
+  font-weight: bold;
+}
+.constit{
+  text-align: center;
+}
+.texperfi{
+  margin-top: 5%;
+}
+
+.tucita{
+  margin-top: 80%;
+}
+.desccita{
+  text-align: center;
 }

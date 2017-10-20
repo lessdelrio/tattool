@@ -28,7 +28,7 @@
   </ul>
   <nav>
     <div class="nav-wrapper black">
-      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <a href="home.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -59,13 +59,11 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col s3">
-          <h6 class="right-align" style="margin-top:80%">Tu cita será en:</h6>
+        <div class="col s3 l5">
+          <h6 class="right-align tucita">Tu cita será en:</h6>
         </div>
-        <div class="col s9">
-
+        <div class="col s9 l7">
           <iframe src="http://free.timeanddate.com/countdown/i5xyiak7/n155/cf100/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac777/cpc000/pct/tcfff/fs175/szw256/szh108/iso2018-01-15T15:00:00/pd2" allowTransparency="true" frameborder="0" width="256" height="90"></iframe>
-
         </div>
       </div>
       <div class="row">
@@ -73,15 +71,13 @@
           <a href="javiwolf.html"><img src="IMG/javi.jpg" class="circle citaper"></a>
         </div>
         <div class="col s8" style="margin-top:5%">
-          <h6 class="centrar"><b>Tatuador:</b> Javi Wolf</h6>
-          <h6 class="centrar"><b>Tatuaje:</b> Mariposa</h6>
-          <h6 class="centrar"><b>Nombre:</b> Fullwatercolor</h6>
-          <h6 class="centrar"><b>Tamaño:</b> 10x6cms</h6>
-          <h6 class="centrar"><b>Ubicación:</b> Omóplato derecho</h6><br>
+          <h6 class="desccita"><b>Tatuador:</b> Javi Wolf</h6>
+          <h6 class="desccita"><b>Tatuaje:</b> Mariposa</h6>
+          <h6 class="desccita"><b>Nombre:</b> Fullwatercolor</h6>
+          <h6 class="desccita"><b>Tamaño:</b> 10x6cms</h6>
+          <h6 class="desccita"><b>Ubicación:</b> Omóplato derecho</h6><br>
         </div>
       </div>
-    </div>
-    <div class="container">
       <div class="row">
         <div class="col s6 centrar">
           <h6><b>Cotizado:</b> $1,800mxn</h6>
@@ -94,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container preci">
       <div class="row">
         <div class="col s6 l3 accita">
           <a class="waves-effect waves-light modal-trigger btnsize" href="#acc1">
@@ -122,7 +118,7 @@
         </div>
       </div>
     </div>
-    <div id="acc1" class="modal modal-fixed-footer">
+    <div id="acc1" class="modal modal-fixed-footer modsiz">
       <div class="modal-content">
         <h4 class="centrar">¿Estás seguro de hacer un cambio de diseño o ubicación?</h4>
         <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización, todo cambio de diseño o ubicación de tu tatuaje puede representar un ajuste al precio final de la cotización. Al solicitar el cambio yo te ajustaré la cotización o en su defecto te avisaré que el precio seguiría siendo el mismo.</p>
@@ -133,7 +129,7 @@
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight:bold">No</a>
       </div>
     </div>
-    <div id="acc2" class="modal modal-fixed-footer">
+    <div id="acc2" class="modal modal-fixed-footer modsiz">
       <div class="modal-content">
         <h4 class="centrar">¿Quieres reagendar tu cita?</h4>
         <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización: </p>
@@ -147,13 +143,13 @@
           <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight:bold">No</a>
         </div>
       </div>
-      <div id="acc3" class="modal modal-fixed-footer red lighten-4" style="height:45%">
+      <div id="acc3" class="modal modal-fixed-footer red lighten-4 modsiz" style="height:45%">
         <div class="modal-content">
           <h4 class="centrar">Aún no puedes confirmar tu asistencia</h4>
           <p class="centrar">Faltan 86 días para tu cita, podrás confirmar tu asistencia a partir del <b>08 de enero de 2017</b> y tu fecha límite de confirmación es el <b>10 de enero de 2017</b>.</p>
         </div>
       </div>
-      <div id="acc4" class="modal modal-fixed-footer" style="height:55%">
+      <div id="acc4" class="modal modal-fixed-footer modsiz" style="height:55%">
         <div class="modal-content">
           <h4 class="centrar">¿Realmente quieres cancelar tu cita?</h4>
           <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización, no hago reembolsos así que si cancelas tu cita perderás los $500mxn que habías depositado.</p>
@@ -164,6 +160,29 @@
         </div>
       </div>
     </main>
+    <style>
+    @media screen and (min-width: 990px) {
+      .tucita{
+        margin-top: 15%;
+      }
+      .citaper{
+        width: 50%;
+        text-align: right;
+      }
+      .desccita{
+        text-align: left;
+      }
+      .preci{
+        margin-top: -40%;
+      }
+      .modsiz{
+        width: 30%;
+      }
+      .penatex{
+        font-size: 15px;
+      }
+    }
+    </style>
 
 
   <footer class="page-footer black">

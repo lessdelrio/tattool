@@ -23,12 +23,12 @@
   <ul id="dropdown2" class="dropdown-content">
     <li><a href="perfil.html">Mi perfil</a></li>
     <li class="divider"></li>
-    <li><a href="cotizaciones.html">Mis coizaciones</a></li>
+    <li><a href="cotizaciones.html">Mis cotizaciones</a></li>
     <li><a href="citas.html">Mis citas</a></li>
   </ul>
   <nav>
     <div class="nav-wrapper black">
-      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <a href="home.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -62,7 +62,7 @@
 
     </div>
     <div class="col s8">
-      <h4 class="blanco" style="text-align:center">Javi Wolf</h4>
+      <h4 class="blanco">Javi Wolf</h4>
       <p class="textotat2">Estado de México, México</p>
       <p class="textotat2">Especialidad: Acuarela </p>
       <p class="textotat2"> Agenda abierta para Guadalajara, Cancún y CDMX/EDOMEX </p>
@@ -77,7 +77,7 @@
           <li class="tab col s4"><a href="#test3">Cotizar</a></li>
         </ul>
       </div>
-      <div id="test1" class="col s12 centrar carousel carousel-slider">
+      <div id="test1" class="col s12 l6 offset-l3 centrar carousel carousel-slider">
         <a class="carousel-item" href="#one!"><img src="IMG/jav1.jpg"></a>
         <a class="carousel-item" href="#two!"><img src="IMG/jav2.jpg"></a>
         <a class="carousel-item" href="#three!"><img src="IMG/jav3.jpg"></a>
@@ -85,13 +85,13 @@
         <a class="carousel-item" href="#five!"><img src="IMG/jav5.jpg"></a>
         <a class="carousel-item" href="#five!"><img src="IMG/jav6.jpg"></a>
       </div>
-      <div id="test2" class="col s12 centrar">
+      <div id="test2" class="col s12 l8 offset-l2 centrar">
         <div class="card-panel cyan accent-4">
           <span class="white-text">Mi especialidad son los tatuajes estilo acuarela (watercolor) pero también me gustan y realizo tatuajes con otros estilos. NO REALIZO tatuajes con estilos o temáticas tribales, huicholes, de hadas o prehispánicos. Al indicarme qué estilo deseas yo te podré decir si es posible. Me gusta ser sincero y no dar falsas expectativas, un tatuaje es para siempre así que si el trabajo que buscas yo no lo puedo realizar con gusto te orientaré con algún colega que domine ese estilo. No hago cover ups ni arreglo trabajos que no fueron realizados por mí. No tatúo en áreas genitales. No tatúo trabajos de otros colegas tatuadores. No vuelvo a tatuar piezas que ya tatué y fueron diseñadas por mí. No recomiendo y por lo tanto no realizo tatuajes en las manos ya que son partes del cuerpo donde la regeneración de la piel es mucho más rápida y la tinta tiende a irse también rápidamente, si lo deseas te invito a que consideres otra parte del cuerpo. No tatúo sobre cicatrices.  Aplican restricciones.
           </span>
         </div>
       </div>
-      <div id="test3" class="col s12 centrar">
+      <div id="test3" class="col s12 l8 offset-l2 centrar">
         <div class="input-field col s12">
           <select>
             <option value="" disabled selected>Elige una opción</option>
@@ -99,7 +99,7 @@
             <option value="2">CDMX/EDOMEX</option>
             <option value="3">Guadalajara</option>
           </select>
-          <label>¿Para qué ciudad deseas tu cita?</label>
+          <label class="formt">¿Para qué ciudad deseas tu cita?</label>
         </div>
         <div class="divider"></div>
         <div class="section">
@@ -107,7 +107,7 @@
           <p class="notasform ">Proporcioname detalles sobre el tatuaje que quieres, entre más detallada y clara sea tu explicación más rápido tendrás tu cotización.</p>
         </div>
         <div class="row">
-          <div class="input-field col s12">
+          <div class="col s12 input-field">
             <textarea id="textarea1" class="materialize-textarea" data-length="500"></textarea>
             <label for="textarea1">Describe tu idea</label>
           </div>
@@ -126,8 +126,11 @@
           </select>
           <label>¿Qué estilo deseas?</label>
         </div>
-        <div class="tamano">
-          Tamaño del tatuaje en centímetros
+        <div>
+          <div class="col s12 tamano">
+            Tamaño del tatuaje en centímetros
+
+          </div>
           <div class="col s6">
             <div class="input-field inline">
               <input id="alto" type="number" class="validate" data-length="2">
@@ -195,12 +198,12 @@
             <input class="file-path validate" type="text">
           </div>
         </div>
-        <p>
+        <div class="col s12 l6">
           <input type="checkbox" class="filled-in" id="filled-in-box"/>
           <label for="filled-in-box">Acepto términos y condiciones</label>
-        </p>
-        <p class="notasform">Al dar clic aceptas haber leído y estar de acuerdo con la forma de trabajo que describo en la pestaña "Importante".</p>
-        <div class="botentrar">
+        </div>
+        <p class="col s12 notasform">Al dar clic aceptas haber leído y estar de acuerdo con la forma de trabajo que describo en la pestaña "Importante".</p>
+        <div class="col s12 botentrar">
           <a href="cotizaciones.html">
             <button class="btn waves-effect waves-light cyan accent-4" type="submit" name="action">Enviar <i class="material-icons right">send</i>
             </button></a>
@@ -208,6 +211,33 @@
       </div>
   </div>
 </div>
+
+<style>
+@media screen and (min-width: 990px) {
+  .cuadros2{
+    width: 300px;
+    height: 300px;
+    margin: 5% 5%;
+    margin-left: 15%;
+  }
+  .blanco{
+    text-align: left;
+    font-size: 50px;
+  }
+  .textotat2{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .notasform{
+    font-size: 15px;
+  }
+  .tamano{
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+}
+</style>
     <footer class="page-footer black">
       <div class="footer-copyright">
         <div class="container">
