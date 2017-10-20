@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tattool</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="tatuadores.html">Tatuadores</a></li>
+    <li><a href="inkspiracion.html">Inkspiración</a></li>
+    <!-- <li class="divider"></li> -->
+    <!-- <li><a href="#!">three</a></li> -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="perfil.html">Mi perfil</a></li>
+    <li class="divider"></li>
+    <li><a href="cotizaciones.html">Mis cotizaciones</a></li>
+    <li><a href="citas.html">Mis citas</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="IMG/fondo.jpg">
+          </div>
+          <a href="#!user"><img class="circle" src="IMG/profile.jpg"></a>
+          <a href="#!name"><span class="white-text name">Ariane Overex</span></a>
+          <a href="#!email"><span class="white-text email">ariane@gmail.com</span></a>
+        </div></li>
+        <li><a href="perfil.html"><i class="material-icons">person</i>Mi perfil</a></li>
+        <li><a href="cotizaciones.html"><i class="material-icons">monetization_on</i>Mis cotizaciones</a></li>
+        <li><a href="citas.html"><i class="material-icons">event</i>Mis citas</a></li>
+
+        <!-- <li><a href="#!">Second Link</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Otros</a></li>
+        <li><a class="waves-effect" href="tatuadores.html">Tatuadores</a></li>
+        <li><a class="waves-effect" href="inkspiracion.html">Inskspiración</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<main>
+  <h3 style="text-align:center">Mis cotizaciones</h3>
+<div class="container">
+  <div class="row">
+    <div class="col s1">
+      <i class="small material-icons icon-green">event_available</i>
+    </div>
+    <div class="col s8">
+      <h6> Cotizaciones activas</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1">
+      <i class="small material-icons icon-red">event_busy</i>
+    </div>
+    <div class="col s8">
+      <h6> Cotizaciones inactivas</h6>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <!-- Cotización #1 -->
+  <div class="col s6 m6 l4">
+    <div class="card medium grey lighten-3">
+      <div class="card-content black-text">
+        <span class="card-title">Javi Wolf</span>
+        <h6 class="cardtext"><b>Tatuaje:</b> Mariposa</h6>
+        <h6 class="cardtext"><b>Nombre:</b> Fullwatercolor</h6>
+        <h6 class="cardtext"><b>Tamaño:</b> 10x6cms</h6>
+        <h6 class="cardtext"><b>Ubicación:</b> Omóplato derecho</h6>
+        <br>
+        <h6 class="cardtext"><b>Cotizado:</b> $1,800mxn</h6>
+        <h6 class="cardtext"><b>Anticipo:</b> $500mxn*</h6>
+        <p class="notasform">*Se toman a cuenta de la cotización</p>
+
+      </div>
+      <div class="card-action">
+        <div class="row">
+          <div class="col s6">
+            <a class="waves-effect waves-light modal-trigger" href="#deta"><h6 class="detalles">Ver detalles</h6></a>
+          </div>
+          <div class="col s6">
+            <a href="agendar.html"><i class="medium material-icons icon-green">event_available</i></a>
+          </div>
+        </div>
+      </div>
+      <div id="deta" class="modal">
+    <div class="modal-content">
+      <h4 class="centrar">Detalles de la cotización</h4>
+      <h6><b>Tatuador:</b> Javi Wolf</h6>
+      <h6><b>Tatuaje:</b> Mariposa</h6>
+      <h6><b>Nombre:</b> Fullwatercolor</h6>
+      <h6><b>Tamaño:</b> 10x6cms</h6>
+      <h6><b>Ubicación:</b> Omóplato derecho</h6>
+      <br>
+      <h6><b>Idea:</b> Quiero una mariposa en mi omóplato derecho que parezca que acaba de despegar y esté volando hacia mi cuello.</h6>
+      <br>
+      <h6 class="centrar"><b>Imágenes de referencia:</b></h6>
+      <div class="row">
+        <div class="col s4">
+          <img src="IMG/ref1.jpg" class="refs">
+        </div>
+        <div class="col s4">
+          <img src="IMG/ref2.jpg" class="refs">
+        </div>
+        <div class="col s4">
+          <img src="IMG/ref3.jpg" class="refs">
+        </div>
+
+      </div>
+      <h6><b>Cotizado:</b> $1,800mxn</h6>
+      <h6><b>Anticipo:</b> $500mxn*</h6>
+      <p>*Se toman a cuenta de la cotización</p>
+    </div>
+  </div>
+    </div>
+  </div>
+  <!-- Cotización #2 -->
+  <div class="col s6 m6 l4">
+    <div class="card medium grey lighten-3">
+      <div class="card-content black-text">
+        <span class="card-title">Edgar</span>
+        <h6 class="cardtext"><b>Tatuaje:</b> Mandala</h6>
+        <h6 class="cardtext"><b>Nombre:</b> Puntillismo</h6>
+        <h6 class="cardtext"><b>Tamaño:</b> 20x20cms</h6>
+        <h6 class="cardtext"><b>Ubicación:</b> Omóplato derecho</h6>
+        <br>
+        <h6 class="cardtext"><b>Cotizado:</b> $1,000mxn por sesión</h6>
+        <h6 class="cardtext"><b>Anticipo:</b> $300mxn*</h6>
+        <p class="notasform">*Se toma a cuenta de la cotización</p>
+      </div>
+      <div class="card-action">
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4 class="centrar">Cotización vencida</h4>
+            <p class="centrar">Ya no puedes agendar para este tatuaje porque la cotización venció el 18 de octubre de 2017. Te invitamos a que vuelvas a solicitar una cotización.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><h6 class="textok">OK</h6></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <a href="#"><h6 class="detalles">Ver detalles</h6></a>
+          </div>
+          <div class="col s6">
+            <a class="waves-effect waves-light modal-trigger" href="#modal1"><i class="medium material-icons icon-red">event_busy</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cotización #3 -->
+  <div class="col s6 m6 l4">
+    <div class="card medium grey lighten-3">
+      <div class="card-content black-text">
+        <span class="card-title">Alex P.</span>
+        <h6 class="cardtext"><b>Tatuaje:</b> Fénix</h6>
+        <h6 class="cardtext"><b>Nombre:</b> Neotradicional</h6>
+        <h6 class="cardtext"><b>Tamaño:</b> 20x10cms</h6>
+        <h6 class="cardtext"><b>Ubicación:</b> Muslo</h6>
+        <br>
+        <h6 class="cardtext"><b>Cotizado:</b> $3,500mxn</h6>
+        <h6 class="cardtext"><b>Anticipo:</b> $1,000mxn*</h6>
+        <p class="notasform">*Se toma a cuenta de la cotización</p>
+      </div>
+      <div class="card-action">
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <h4 class="centrar">Cotización vencida</h4>
+            <p class="centrar">Ya no puedes agendar para este tatuaje porque la cotización venció el 10 de agosto de 2017. Te invitamos a que vuelvas a solicitar una cotización.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><h6 class="textok">OK</h6></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <a href="#"><h6 class="detalles">Ver detalles</h6></a>
+          </div>
+          <div class="col s6">
+            <a class="waves-effect waves-light modal-trigger" href="#modal2"><i class="medium material-icons icon-red">event_busy</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cotización #4 -->
+  <div class="col s6 m6 l4">
+    <div class="card medium grey lighten-3">
+      <div class="card-content black-text">
+        <span class="card-title">Alessa Dot</span>
+        <h6 class="cardtext"><b>Tatuaje:</b> Principito</h6>
+        <h6 class="cardtext"><b>Nombre:</b> Cross stitch</h6>
+        <h6 class="cardtext"><b>Tamaño:</b> 10x10cms</h6>
+        <h6 class="cardtext"><b>Ubicación:</b> Antebrazo</h6>
+        <br>
+        <h6 class="cardtext"><b>Cotizado:</b> $1,200mxn</h6>
+        <h6 class="cardtext"><b>Anticipo:</b> $500mxn*</h6>
+        <p class="notasform">*Se toma a cuenta de la cotización</p>
+      </div>
+      <div class="card-action">
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <h4 class="centrar">Cotización vencida</h4>
+            <p class="centrar">Ya no puedes agendar para este tatuaje porque la cotización venció el 21 de julio de 2017. Te invitamos a que vuelvas a solicitar una cotización.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><h6 class="textok">OK</h6></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <a href="#"><h6 class="detalles">Ver detalles</h6></a>
+          </div>
+          <div class="col s6">
+            <a class="waves-effect waves-light modal-trigger" href="#modal3"><i class="medium material-icons icon-red">event_busy</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+  <footer class="page-footer black">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Tattool
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tattool</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="tatuadores.html">Tatuadores</a></li>
+    <li><a href="inkspiracion.html">Inkspiración</a></li>
+    <!-- <li class="divider"></li> -->
+    <!-- <li><a href="#!">three</a></li> -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="perfil.html">Mi perfil</a></li>
+    <li class="divider"></li>
+    <li><a href="cotizaciones.html">Mis cotizaciones</a></li>
+    <li><a href="citas.html">Mis citas</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="IMG/fondo.jpg">
+          </div>
+          <a href="#!user"><img class="circle" src="IMG/profile.jpg"></a>
+          <a href="#!name"><span class="white-text name">Ariane Overex</span></a>
+          <a href="#!email"><span class="white-text email">ariane@gmail.com</span></a>
+        </div></li>
+        <li><a href="perfil.html"><i class="material-icons">person</i>Mi perfil</a></li>
+        <li><a href="cotizaciones.html"><i class="material-icons">monetization_on</i>Mis cotizaciones</a></li>
+        <li><a href="citas.html"><i class="material-icons">event</i>Mis citas</a></li>
+
+        <!-- <li><a href="#!">Second Link</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Otros</a></li>
+        <li><a class="waves-effect" href="tatuadores.html">Tatuadores</a></li>
+        <li><a class="waves-effect" href="inkspiracion.html">Inskspiración</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<main>
+  <nav class="griswrap">
+     <div class="container nav-wrapper">
+       <div class="col s12">
+         <a href="#!" class="breadcrumb breadl">Elige tu fecha</a>
+         <!-- <a href="#!" class="breadcrumb breadl">Realiza el pago</a>
+         <a href="#!" class="breadcrumb breadl">Confirmación</a> -->
+       </div>
+     </div>
+   </nav>
+   <div class="container">
+     <h5 style="text-align:center">Consideraciones para elegir tu fecha de cita:</h5>
+     <p class="consi"> <b>1)</b> Por favor toma en cuenta tu horario de trabajo o las actividades y compromisos que tendrás.<br>
+        <b>2)</b> Una vez agendada tu cita, si quieres cambiar fecha y/u horario lo podrás hacer pero por favor toma en cuenta lo siguiente:<br>
+        - Si faltan 2 meses o más para tu cita no hay penalización.<br>
+        - Si falta menos de 2 meses o 21 días para tu cita, se cobran $500MXN de penalización.<br>
+        - Si faltan 20 días o menos para tu cita, se cobran $1,000MXN de penalización.<br>
+        <b>3)</b> En caso de cancelar tu cita (en cualquier momento), se pierde el depósito sin excepción alguna.<br>
+        <b>4)</b> No hacemos reembolsos, es por eso que te pedimos tomes en cuenta las actividades que tienes y elijas la fecha que más te convenga.</p>
+   </div>
+
+   <div class="container">
+     <div class="row">
+       <div class="col s6">
+         <i class="material-icons prefix centraritem">event</i>
+       </div>
+       <div class="col s6">
+         <i class="material-icons prefix">access_time</i>
+       </div>
+       <div class="col s6 notasform">
+         <h6 class="centrar">Elige la fecha</h6>
+       </div>
+       <div class="col s6 notasform">
+         <h6 class="centrar">Elige la hora</h6>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col s6">
+         <input type="text" class="datepicker">
+       </div>
+       <div class="col s6">
+         <input type="text" class="timepicker">
+       </div>
+     </div>
+   </div>
+<div class="row">
+  <div class="col s6 offset-s3 agenda">
+      <a class="waves-effect waves-light btn grey darken-3" href="pago.html">Siguiente</a>
+  </div>
+</div>
+</main>
+
+
+  <footer class="page-footer black">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Tattool
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

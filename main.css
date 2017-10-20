@@ -1,0 +1,213 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.logoinicial{
+  height: 45px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.botentrar{
+  margin-top: 10%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+}
+.child{
+
+  align-items: baseline;
+}
+.cuadros{
+  color: black;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+}
+.cuadros2{
+  width: 100px;
+  height: 100px;
+  margin-top: 30%;
+}
+.textotat {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.textotat:hover {
+  color: gray;
+}
+.cuadros:hover {
+opacity: 0.6;
+}
+
+.backtat{
+  background-image: url("IMG/cover3.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+
+.textotat2{
+  color: white;
+  font-size: 12px;
+
+}
+.textotat3{
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  font-size: 12px;
+
+}
+.blanco{
+  color: white;
+}
+
+.centrar{
+  text-align: center;
+}
+.marfle{
+  margin-top: 5%;
+}
+
+.tabs .tab a.active {
+  color: #00b8d4;
+}
+
+.tabs .tab a:hover {
+  color: #00b8d4;
+}
+
+.tabs .tab a {
+  color: #00b8d4;
+}
+
+.notasform {
+  color: grey;
+  font-size: 10px;
+}
+
+.izqtext {
+  text-align: left;
+}
+.fotper {
+  width: 100%;
+  justify-content: center;
+}
+.editper{
+  margin-top: 10%;
+}
+.cardtext{
+  font-size: 11px;
+}
+i.icon-green {
+    color: #43a047;
+}
+i.icon-green:hover {
+    color: #2e7d32;
+}
+.detalles{
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: black !important;
+}
+.detalles:hover{
+  font-weight: normal;
+  font-style: italic;
+}
+i.icon-red {
+    color: #e53935;
+}
+i.icon-red:hover {
+    color: #b71c1c;
+}
+.textok {
+  color: black;
+  font-weight: bold;
+}
+.breadl{
+  font-size: 13px;
+}
+.griswrap{
+  background-color: #bdbdbd;
+}
+.consi{
+  font-size: 12px;
+}
+.centraritem{
+  align-content: center;
+}
+.agenda{
+  margin-bottom: 15%;
+}
+.payform{
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 3px;
+  width: 100px;
+  display: block;
+  margin: 10px auto;
+}
+.payform:hover{
+  opacity: .5;
+}
+.dba{
+  display: block;
+}
+.prueba2{
+  display: block;
+  margin: 0 auto;
+}
+.carconf{
+  width: 80%;
+}
+.cita{
+  margin-top: 20%;
+  width: 70%;
+}
+.citapas{
+  opacity: .5;
+}
+.citaper{
+  width: 100%;
+  margin: 20% 20%;
+
+}
+.btnsize{
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: grey;
+  border-radius: 10px;
+}
+.accita{
+  margin-top: 10%;
+}
+.texcit{
+  font-size: 20px;
+  margin-top: 0;
+}
+.penatex{
+  font-size: 12px;
+}
+.aunno{
+  background-color: #bdbdbd;
+}
+.refs{
+  width: 100%;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tattool</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="tatuadores.html">Tatuadores</a></li>
+    <li><a href="inkspiracion.html">Inkspiración</a></li>
+    <!-- <li class="divider"></li> -->
+    <!-- <li><a href="#!">three</a></li> -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="perfil.html">Mi perfil</a></li>
+    <li class="divider"></li>
+    <li><a href="cotizaciones.html">Mis coizaciones</a></li>
+    <li><a href="citas.html">Mis citas</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="IMG/fondo.jpg">
+          </div>
+          <a href="#!user"><img class="circle" src="IMG/profile.jpg"></a>
+          <a href="#!name"><span class="white-text name">Ariane Overex</span></a>
+          <a href="#!email"><span class="white-text email">ariane@gmail.com</span></a>
+        </div></li>
+        <li><a href="perfil.html"><i class="material-icons">person</i>Mi perfil</a></li>
+        <li><a href="cotizaciones.html"><i class="material-icons">monetization_on</i>Mis cotizaciones</a></li>
+        <li><a href="citas.html"><i class="material-icons">event</i>Mis citas</a></li>
+
+        <!-- <li><a href="#!">Second Link</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Otros</a></li>
+        <li><a class="waves-effect" href="tatuadores.html">Tatuadores</a></li>
+        <li><a class="waves-effect" href="inkspiracion.html">Inskspiración</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- HEADER DEL TATUADOR-->
+  <div class="row backtat">
+    <div class="col s4">
+      <img class="cuadros2 circle" src="IMG/javi.jpg">
+
+    </div>
+    <div class="col s8">
+      <h4 class="blanco" style="text-align:center">Javi Wolf</h4>
+      <p class="textotat2">Estado de México, México</p>
+      <p class="textotat2">Especialidad: Acuarela </p>
+      <p class="textotat2"> Agenda abierta para Guadalajara, Cancún y CDMX/EDOMEX </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s4"><a href="#test1">Galería</a></li>
+          <li class="tab col s4"><a href="#test2">Importante</a></li>
+          <li class="tab col s4"><a href="#test3">Cotizar</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12 centrar carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="IMG/jav1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="IMG/jav2.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="IMG/jav3.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="IMG/jav4.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="IMG/jav5.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="IMG/jav6.jpg"></a>
+      </div>
+      <div id="test2" class="col s12 centrar">
+        <div class="card-panel cyan accent-4">
+          <span class="white-text">Mi especialidad son los tatuajes estilo acuarela (watercolor) pero también me gustan y realizo tatuajes con otros estilos. NO REALIZO tatuajes con estilos o temáticas tribales, huicholes, de hadas o prehispánicos. Al indicarme qué estilo deseas yo te podré decir si es posible. Me gusta ser sincero y no dar falsas expectativas, un tatuaje es para siempre así que si el trabajo que buscas yo no lo puedo realizar con gusto te orientaré con algún colega que domine ese estilo. No hago cover ups ni arreglo trabajos que no fueron realizados por mí. No tatúo en áreas genitales. No tatúo trabajos de otros colegas tatuadores. No vuelvo a tatuar piezas que ya tatué y fueron diseñadas por mí. No recomiendo y por lo tanto no realizo tatuajes en las manos ya que son partes del cuerpo donde la regeneración de la piel es mucho más rápida y la tinta tiende a irse también rápidamente, si lo deseas te invito a que consideres otra parte del cuerpo. No tatúo sobre cicatrices.  Aplican restricciones.
+          </span>
+        </div>
+      </div>
+      <div id="test3" class="col s12 centrar">
+        <div class="input-field col s12">
+          <select>
+            <option value="" disabled selected>Elige una opción</option>
+            <option value="1">Cancún</option>
+            <option value="2">CDMX/EDOMEX</option>
+            <option value="3">Guadalajara</option>
+          </select>
+          <label>¿Para qué ciudad deseas tu cita?</label>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Datos del tatuaje</h5>
+          <p class="notasform ">Proporcioname detalles sobre el tatuaje que quieres, entre más detallada y clara sea tu explicación más rápido tendrás tu cotización.</p>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea" data-length="500"></textarea>
+            <label for="textarea1">Describe tu idea</label>
+          </div>
+          <p class="notasform izqtext">Ejemplo: "Quiero un colibrí que tenga las alas extendidas como emprendiendo el vuelo y esté volteando hacia la derecha".</p>
+        </div>
+        <div class="input-field col s12">
+          <select class="icons">
+            <option value="" disabled selected>Elige una opción</option>
+            <option value="" data-icon="IMG/estilo1.jpg" class="left circle">Fullwatercolor</option>
+            <option value="" data-icon="IMG/estilo2.jpg" class="left circle">Negativo 1</option>
+            <option value="" data-icon="IMG/estilo3.jpg" class="left circle">Trazo sketch con acuarela</option>
+            <option value="" data-icon="IMG/estilo4.jpg" class="left circle">Mixtos</option>
+            <option value="" data-icon="IMG/estilo5.jpg" class="left circle">Negativo 2</option>
+            <option value="" data-icon="IMG/estilo6.jpg" class="left circle">Trazo normal con acuarela</option>
+
+          </select>
+          <label>¿Qué estilo deseas?</label>
+        </div>
+        <div class="tamano">
+          Tamaño del tatuaje en centímetros
+          <div class="col s6">
+            <div class="input-field inline">
+              <input id="alto" type="number" class="validate" data-length="2">
+              <label for="alto" data-error="wrong" data-success="right">Alto</label>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="input-field inline">
+              <input id="alto" type="number" class="validate" data-length="2">
+              <label for="alto" data-error="wrong" data-success="right">Ancho</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-field col s12">
+          <select>
+            <option value="" disabled selected>Elige una opción</option>
+            <option value="1">Brazo</option>
+            <option value="2">Antebrazo</option>
+            <option value="3">Espalda</option>
+            <option value="4">Muslo</option>
+            <option value="5">Pantorrilla</option>
+            <option value="6">Empeine</option>
+            <option value="7">Abdomen</option>
+            <option value="8">Cadera</option>
+            <option value="9">Pecho</option>
+          </select>
+          <label>¿En qué parte del cuerpo lo quieres?</label>
+        </div>
+        <div class="Diseno">
+          ¿Ya tienes tu diseño final?
+          <p class="izqtext">
+            <input name="group1" type="radio" id="yadis" />
+            <label for="yadis">Ya tengo mi diseño final</label>
+          </p>
+          <p class="izqtext">
+            <input name="group1" type="radio" id="nodis" />
+            <label for="nodis">Quiero un diseño realizado por ti</label>
+          </p>
+        </div>
+        Sube tus imágenes de referencia:
+        <div class="file-field input-field">
+          <div class="btn cyan accent-4">
+            <span>Ref #1</span>
+            <input type="file">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text">
+          </div>
+        </div>
+        <div class="file-field input-field">
+          <div class="btn cyan accent-4">
+            <span>Ref #2</span>
+            <input type="file">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text">
+          </div>
+        </div>
+        <div class="file-field input-field">
+          <div class="btn cyan accent-4">
+            <span>Ref #3</span>
+            <input type="file">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text">
+          </div>
+        </div>
+        <p>
+          <input type="checkbox" class="filled-in" id="filled-in-box"/>
+          <label for="filled-in-box">Acepto términos y condiciones</label>
+        </p>
+        <p class="notasform">Al dar clic aceptas haber leído y estar de acuerdo con la forma de trabajo que describo en la pestaña "Importante".</p>
+        <div class="botentrar">
+          <a href="cotizaciones.html">
+            <button class="btn waves-effect waves-light cyan accent-4" type="submit" name="action">Enviar <i class="material-icons right">send</i>
+            </button></a>
+        </div>
+      </div>
+  </div>
+</div>
+    <footer class="page-footer black">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2017 Tattool
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

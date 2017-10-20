@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tattool</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="tatuadores.html">Tatuadores</a></li>
+    <li><a href="inkspiracion.html">Inkspiración</a></li>
+    <!-- <li class="divider"></li> -->
+    <!-- <li><a href="#!">three</a></li> -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="perfil.html">Mi perfil</a></li>
+    <li class="divider"></li>
+    <li><a href="cotizaciones.html">Mis cotizaciones</a></li>
+    <li><a href="citas.html">Mis citas</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="IMG/fondo.jpg">
+          </div>
+          <a href="#!user"><img class="circle" src="IMG/profile.jpg"></a>
+          <a href="#!name"><span class="white-text name">Ariane Overex</span></a>
+          <a href="#!email"><span class="white-text email">ariane@gmail.com</span></a>
+        </div></li>
+        <li><a href="perfil.html"><i class="material-icons">person</i>Mi perfil</a></li>
+        <li><a href="cotizaciones.html"><i class="material-icons">monetization_on</i>Mis cotizaciones</a></li>
+        <li><a href="citas.html"><i class="material-icons">event</i>Mis citas</a></li>
+
+        <!-- <li><a href="#!">Second Link</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Otros</a></li>
+        <li><a class="waves-effect" href="tatuadores.html">Tatuadores</a></li>
+        <li><a class="waves-effect" href="inkspiracion.html">Inskspiración</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s3">
+          <h6 class="right-align" style="margin-top:80%">Tu cita será en:</h6>
+        </div>
+        <div class="col s9">
+
+          <iframe src="http://free.timeanddate.com/countdown/i5xyiak7/n155/cf100/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac777/cpc000/pct/tcfff/fs175/szw256/szh108/iso2018-01-15T15:00:00/pd2" allowTransparency="true" frameborder="0" width="256" height="90"></iframe>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s4">
+          <a href="javiwolf.html"><img src="IMG/javi.jpg" class="circle citaper"></a>
+        </div>
+        <div class="col s8" style="margin-top:5%">
+          <h6 class="centrar"><b>Tatuador:</b> Javi Wolf</h6>
+          <h6 class="centrar"><b>Tatuaje:</b> Mariposa</h6>
+          <h6 class="centrar"><b>Nombre:</b> Fullwatercolor</h6>
+          <h6 class="centrar"><b>Tamaño:</b> 10x6cms</h6>
+          <h6 class="centrar"><b>Ubicación:</b> Omóplato derecho</h6><br>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 centrar">
+          <h6><b>Cotizado:</b> $1,800mxn</h6>
+        </div>
+        <div class="col s6 centrar">
+          <h6><b>Anticipo:</b> $500mxn</h6>
+        </div>
+        <div class="col s12 centrar">
+          <h6><b>Saldo pendiente:</b> $1,300mxn</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 l3 accita">
+          <a class="waves-effect waves-light modal-trigger btnsize" href="#acc1">
+            <i class="material-icons">autorenew</i>
+            <p class="centrar texcit">Cambiar diseño <br>o ubicación</p>
+          </a>
+        </div>
+        <div class="col s6 l3 accita">
+          <a class="waves-effect waves-light modal-trigger btnsize" href="#acc2">
+            <i class="material-icons">event</i>
+            <p class="centrar texcit">Reagendar cita</p>
+          </a>
+        </div>
+        <div class="col s6 l3 accita">
+          <a class="waves-effect waves-light modal-trigger btnsize aunno" href="#acc3">
+            <i class="material-icons">notifications</i>
+            <p class="centrar texcit">Confirmar asistencia</p>
+          </a>
+        </div>
+        <div class="col s6 l3 accita">
+          <a class="waves-effect waves-light modal-trigger btnsize" href="#acc4">
+            <i class="material-icons">event_busy</i>
+            <p class="centrar texcit">Cancelar cita</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="acc1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="centrar">¿Estás seguro de hacer un cambio de diseño o ubicación?</h4>
+        <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización, todo cambio de diseño o ubicación de tu tatuaje puede representar un ajuste al precio final de la cotización. Al solicitar el cambio yo te ajustaré la cotización o en su defecto te avisaré que el precio seguiría siendo el mismo.</p>
+        <p class="centrar">Podrás solicitar cambios a más tardar el <b>15 de diciembre de 2017</b>.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">¡Sí!</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight:bold">No</a>
+      </div>
+    </div>
+    <div id="acc2" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4 class="centrar">¿Quieres reagendar tu cita?</h4>
+        <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización: </p>
+        <p class="penatex">- Si faltan 2 meses o más para tu cita no hay penalización.<br>
+          - Si falta menos de 2 meses o 21 días para tu cita, se cobran $500mxn de penalización. <br>
+          - Si faltan 20 días o menos para tu cita, se cobran $1,000mxn de penalización.</p>
+          <p class="centrar">Actualmente faltan <b>86 días</b> para tu cita así que no hay penalización por reagendar.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">¡Sí!</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight:bold">No</a>
+        </div>
+      </div>
+      <div id="acc3" class="modal modal-fixed-footer red lighten-4" style="height:45%">
+        <div class="modal-content">
+          <h4 class="centrar">Aún no puedes confirmar tu asistencia</h4>
+          <p class="centrar">Faltan 86 días para tu cita, podrás confirmar tu asistencia a partir del <b>08 de enero de 2017</b> y tu fecha límite de confirmación es el <b>10 de enero de 2017</b>.</p>
+        </div>
+      </div>
+      <div id="acc4" class="modal modal-fixed-footer" style="height:55%">
+        <div class="modal-content">
+          <h4 class="centrar">¿Realmente quieres cancelar tu cita?</h4>
+          <p class="centrar">De acuerdo a mi forma de trabajo, la cual confirmaste y aceptaste haber leído al solicitar cotización, no hago reembolsos así que si cancelas tu cita perderás los $500mxn que habías depositado.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Sí</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" style="font-weight:bold">No</a>
+        </div>
+      </div>
+    </main>
+
+
+  <footer class="page-footer black">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Tattool
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

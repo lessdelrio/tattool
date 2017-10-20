@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tattool</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="tatuadores.html">Tatuadores</a></li>
+    <li><a href="inkspiracion.html">Inkspiración</a></li>
+    <!-- <li class="divider"></li> -->
+    <!-- <li><a href="#!">three</a></li> -->
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="perfil.html">Mi perfil</a></li>
+    <li class="divider"></li>
+    <li><a href="cotizaciones.html">Mis cotizaciones</a></li>
+    <li><a href="citas.html">Mis citas</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="index.html" class="brand-logo"><img src="IMG/logoblanco.png" class="logoinicial"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2"> Ariane <i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Otros<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="IMG/fondo.jpg">
+          </div>
+          <a href="#!user"><img class="circle" src="IMG/profile.jpg"></a>
+          <a href="#!name"><span class="white-text name">Ariane Overex</span></a>
+          <a href="#!email"><span class="white-text email">ariane@gmail.com</span></a>
+        </div></li>
+        <li><a href="perfil.html"><i class="material-icons">person</i>Mi perfil</a></li>
+        <li><a href="cotizaciones.html"><i class="material-icons">monetization_on</i>Mis cotizaciones</a></li>
+        <li><a href="citas.html"><i class="material-icons">event</i>Mis citas</a></li>
+
+        <!-- <li><a href="#!">Second Link</a></li> -->
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Otros</a></li>
+        <li><a class="waves-effect" href="tatuadores.html">Tatuadores</a></li>
+        <li><a class="waves-effect" href="inkspiracion.html">Inskspiración</a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<main>
+  <nav class="griswrap">
+     <div class="container nav-wrapper">
+       <div class="col s12">
+         <a href="agendar.html" class="breadcrumb breadl">Elige tu fecha</a>
+         <a href="#!" class="breadcrumb breadl">Realiza tu pago</a>
+         <!-- <a href="#!" class="breadcrumb breadl">Realiza el pago</a>
+         <a href="#!" class="breadcrumb breadl">Confirmación</a> -->
+       </div>
+     </div>
+   </nav>
+   <div class="row">
+     <div class="col s12">
+       <h5 class="centrar">Elige tu forma de pago:</h5>
+     </div>
+
+
+   </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s6 m4 l3">
+      <a href="#" class="dba"><img src="IMG/bitcoin.png" class="payform"></a>
+    </div>
+    <div class="col s6 m4 l3">
+      <a class="waves-effect waves-light modal-trigger dba" href="#modal4"><img src="IMG/visa.png" class="payform"></a>
+    </div>
+    <div class="col s6 m4 l3">
+      <a href="#" class="dba"><img src="IMG/paypal.png" class="payform"></a>
+    </div>
+    <div class="col s6 m4 l3">
+      <a href="#" class="dba"><img src="IMG/cash.png" class="payform"></a>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h4>Pago del anticipo</h4>
+      <div class="input-field col s12">
+        <select>
+          <option value="" disabled selected>Tipo de tarjeta</option>
+          <option value="1">Mastercard</option>
+          <option value="2">Visa</option>
+        </select>
+      </div>
+<div class="row">
+  <div class="input-field col s9">
+    <input id="input_text" type="number" data-length="16">
+    <label for="input_text">Número de tarjeta</label>
+  </div>
+  <div class="input-field col s3">
+    <input id="input_text" type="number" data-length="3">
+    <label for="input_text">CVV</label>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <h6 style="color: grey">Fecha de vencimiento</h6>
+    <div class="input-field col s6">
+      <select>
+        <option value="" disabled selected>Mes</option>
+        <option value="1">01</option>
+        <option value="2">02</option>
+        <option value="2">03</option>
+        <option value="2">04</option>
+        <option value="2">05</option>
+        <option value="2">06</option>
+        <option value="2">07</option>
+        <option value="2">08</option>
+        <option value="2">09</option>
+        <option value="2">10</option>
+        <option value="2">11</option>
+        <option value="2">12</option>
+      </select>
+    </div>
+    <div class="input-field col s6">
+      <select>
+        <option value="" disabled selected>Año</option>
+        <option value="1">2017</option>
+        <option value="2">2018</option>
+        <option value="2">2019</option>
+        <option value="2">2020</option>
+        <option value="2">2021</option>
+        <option value="2">2022</option>
+        <option value="2">2023</option>
+        <option value="2">2024</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s6">
+      <input placeholder="Nombre(s)" id="first_name" type="text" class="validate">
+    </div>
+    <div class="input-field col s6">
+      <input placeholder="Apellidos" id="last_name" type="text" class="validate">
+    </div>
+    <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Dirección</label>
+        </div>
+  </div>
+</div>
+
+    </div>
+    <div class="modal-footer">
+      <a href="confirma.html" class="modal-action modal-close waves-effect waves-green btn-flat">Pagar</a>
+    </div>
+  </div>
+</div>
+</main>
+
+
+  <footer class="page-footer black">
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Tattool
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
