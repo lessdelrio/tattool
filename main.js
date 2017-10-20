@@ -3,6 +3,7 @@ $(document).ready(function() {
   $(".button-collapse").sideNav();
   $('.collapsible').collapsible();
   $('select').material_select();
+
   $(".dropdown-button").dropdown();
   $('.carousel.carousel-slider').carousel({fullWidth: true});
   $('ul.tabs').tabs();
@@ -28,4 +29,5 @@ $(document).ready(function() {
     ampmclickable: true, // make AM PM clickable
     aftershow: function(){} //Function for after opening timepicker
   });
+  $('.carousel').carousel();
 });
